@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mapa</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar__container">
+            <a href="index.html"><img  src="img/nuvemlogo.png" href="index.html" id="navbar__logo"></a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="historico.html" class="navbar__links">Histórico</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="mapa.html" class="navbar__links">Mapa</a>
+                </li>
+                <li class="navbar__item">
+                    <a class="navbar__links" style="cursor:pointer">Nosso APP</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="sobrenos.html" class="navbar__links">Sobre nós</a>
+                </li>
+             </ul>
+        </div>
+    </nav>
+    <div class="previsao" id="ww_83fa12a73cc93" v='1.20' loc='id' a='{"t":"ticker","lang":"pt","ids":["wl4955"],"cl_bkg":"#333","cl_font":"#FFFFFF","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722","sl_sot":"celsius","sl_ics":"one_a","font":"Arial"}'>Weather for the Following Location: <a href="https://2ua.org/bra/sao_carlos/map/" id="ww_83fa12a73cc93_u" target="_blank">Sao Carlos map, Brazil</a></div><script async src="https://srv2.weatherwidget.org/js/?id=ww_83fa12a73cc93"></script>
+
+    <div class="mapa-iframe">
+        </br></br></br>
+        <iframe width="500px" height="300px" allowfullscreen src="http://umap.openstreetmap.fr/pt-br/map/enchentes_735910?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&allowEdit=false&moreControl=false&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe>
+    </div>
+
+    <!--================================-->
+
+    <div class="mbl-mapa-iframe">
+        <iframe width="100vw" height="100vh" allowfullscreen src="http://umap.openstreetmap.fr/pt-br/map/enchentes_735910?scaleControl=false&miniMap=false&scrollWheelZoom=true&zoomControl=true&allowEdit=false&moreControl=false&searchControl=null&tilelayersControl=null&embedControl=null&datalayersControl=true&onLoadPanel=undefined&captionBar=false"></iframe>
+    </div>
+
+
+    <script src="js.js"></script>
+</body>
+</html>
