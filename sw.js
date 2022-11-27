@@ -1,12 +1,16 @@
 var GHPATH = '/SEO';
-var APP_PREFIX = 'gppwa_';
+var APP_PREFIX = 'seo_';
 var VERSION = 'version_002';
 var URLS = [    
   `${GHPATH}/`,
   `${GHPATH}/index.html`,
-  `${GHPATH}/css/styles.css`,
-  `${GHPATH}/img/icon.png`,
-  `${GHPATH}/js/app.js`
+  `${GHPATH}/historico.html`,
+  `${GHPATH}/mapa.html`,
+  `${GHPATH}/sobrenos.html`,
+  `${GHPATH}/style.css`,
+  `${GHPATH}/style2.css`,
+  `${GHPATH}/historico.css`,
+  `${GHPATH}/js.js`
 ]
 
 var CACHE_NAME = APP_PREFIX + VERSION
