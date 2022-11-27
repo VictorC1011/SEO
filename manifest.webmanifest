@@ -11,6 +11,6 @@
     "start_url": "/SEO/",
     "background_color": "#00091F",
     "display": "standalone",
-    "scope": "/",
+    "scope": "/SEO/",
     "theme_color": "#00091F"
 }
