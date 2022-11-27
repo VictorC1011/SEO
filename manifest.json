@@ -1,0 +1,16 @@
+{
+    "short_name": "SEO",
+    "name":"Sinalização de Enchentes Online",
+    "icons": [
+        {
+            "src": "img/appicon.png",
+            "type": "image/png",
+            "sizes": "512x512"
+        }
+    ],
+    "start_url": "/",
+    "background_color": "#00091F",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#00091F"
+}
