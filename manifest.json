@@ -8,7 +8,7 @@
             "sizes": "512x512"
         }
     ],
-    "start_url": "https://victorc1011.github.io/SEO/",
+    "start_url": "/SEO/",
     "background_color": "#00091F",
     "display": "standalone",
     "scope": "/",
