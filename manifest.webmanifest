@@ -2,7 +2,7 @@
   "name": "Sinalização de Enchentes Online",
   "short_name": "SEO",
   "description": "São Carlos",
-  "scope": "/SEO/",
+  "scope": "/SEO/app/",
   "start_url": "/SEO/app/",
   "background_color": "#00091F",
   "theme_color": "#00091F",
