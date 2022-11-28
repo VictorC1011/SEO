@@ -3,14 +3,10 @@ var APP_PREFIX = 'seo_';
 var VERSION = 'version_002';
 var URLS = [    
   `${GHPATH}/`,
-  `${GHPATH}/index.html`,
-  `${GHPATH}/historico.html`,
-  `${GHPATH}/mapa.html`,
-  `${GHPATH}/sobrenos.html`,
-  `${GHPATH}/style.css`,
-  `${GHPATH}/style2.css`,
-  `${GHPATH}/historico.css`,
-  `${GHPATH}/js.js`
+  `${GHPATH}/app/index.html`,
+  `${GHPATH}/app/style.css`,
+  `${GHPATH}/app/nav.css`,
+  `${GHPATH}/app/nav.js`
 ]
 
 var CACHE_NAME = APP_PREFIX + VERSION
