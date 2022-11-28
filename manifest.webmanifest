@@ -1,45 +1,12 @@
-/*
 {
-    "short_name": "SEO",
-    "name":"Sinalização de Enchentes Online",
-    "icons": [
-        {
-            "src": "img/appicon.png",
-            "type": "image/png",
-            "sizes": "512x512"
-        }
-    ],
-    "start_url": "/SEO/",
-    "background_color": "#00091F",
-    "display": "standalone",
-    "scope": "/SEO/",
-    "theme_color": "#00091F"
-}
-*/
-
-
-{
-  // Name of the app and short name in case there isn't enough space
   "name": "Sinalização de Enchentes Online",
   "short_name": "SEO",
-  // Description what your app is
   "description": "São Carlos",
-
-  // Scope and start URL - these need to change to yours
   "scope": "/SEO/",
-  "start_url": "/SEO/",
-
-  // colours of the app as displayed in the installer
+  "start_url": "/SEO/app/",
   "background_color": "#00091F",
   "theme_color": "#00091F",
-
-  // Display of the app. 
-  //This could be "standalone", "fullscreen", "minimal-ui" or "browser"
   "display": "standalone", 
-  
-  // The possible icons to display. Make sure to change the src URL,
-  // the type and the size to your needs. If the size isn't correct, 
-  // you may not be able to install the app. 
   "icons": [
       {
         "src": "/SEO/img/appicon.png",
