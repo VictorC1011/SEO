@@ -9,3 +9,7 @@ let showCard = (event) => {
 }
 
 btn.addEventListener("click", showCard);
+
+function mapa() {window.location.href="mapa.html"}
+function home() {window.location.href="index.html"}
+function previsao() {window.location.href="previsao.html"}
