@@ -1,51 +1,11 @@
-(function(){
-    'use strict';
-  
-    class Menu {
-      constructor(settings) {
-        this.menuRootNode = settings.menuRootNode;
-        this.isOpened = false;
-      }
-      
-      changeMenuState(menuState) {
-        return this.isOpened = !menuState;
-      }
-      
-      changeToggleHint(toggleHint, toggleNode) {
-        toggleNode.textContent = toggleHint;
-        return toggleHint; 
-      }
+const btn = document.querySelector("#btn");
+const item = document.querySelectorAll(".menu__item");
+
+let showCard = (event) => {
+    btn.classList.toggle("is-rotate");
+    for (var i = 0; i < item.length; i++) {
+        item[i].classList.toggle(`item-${i}`);
     }
-  
-    const menuClassesNames = {
-      rootClass: 'menu',
-      activeClass: 'menu_activated',
-      toggleClass: 'menu__toggle',
-      toggleHintClass: 'menu__toggle-hint'
-    }
-    
-    const jsMenuNode = document.querySelector(`.${menuClassesNames.rootClass}`);
-    const demoMenu = new Menu ({
-      menuRootNode: jsMenuNode
-    });
-    
-    function getCurrentToggleHint(currentMenuState) {
-      return (currentMenuState !== true) ? 'Open menu' : 'Close menu';
-    }
-    
-    function toggleMenu(event) {
-      
-        let currentMenuState = demoMenu.changeMenuState(demoMenu.isOpened);
-        let toggleHint = getCurrentToggleHint(currentMenuState);
-        
-        demoMenu.changeToggleHint(
-          toggleHint, 
-          demoMenu.menuRootNode.querySelector(`.${menuClassesNames.toggleHintClass}`)
-        );
-        demoMenu.menuRootNode.classList.toggle(`${menuClassesNames.activeClass}`);
-        
-        return currentMenuState;  
-    }
-    
-    jsMenuNode.querySelector(`.${menuClassesNames.toggleClass}`).addEventListener('click', toggleMenu);
-  })();
+}
+
+btn.addEventListener("click", showCard);
