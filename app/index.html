@@ -10,16 +10,22 @@
 </head>
 <body>
 
-    <div class="navmenu">
-        <div class="navmenu-menu">
-            <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIw%0D%0AMDAvc3ZnIj4KCiA8Zz4KICA8dGl0bGU+YmFja2dyb3VuZDwvdGl0bGU+CiAgPHJlY3QgZmlsbD0i%0D%0Abm9uZSIgaWQ9ImNhbnZhc19iYWNrZ3JvdW5kIiBoZWlnaHQ9IjQwMiIgd2lkdGg9IjU4MiIgeT0i%0D%0ALTEiIHg9Ii0xIi8+CiA8L2c+CiA8Zz4KICA8dGl0bGU+TGF5ZXIgMTwvdGl0bGU+CiAgPHBvbHln%0D%0Ab24gc3Ryb2tlPSIjZmZmZmZmIiBpZD0ic3ZnXzEiIHBvaW50cz0iODAuMiw1MS42IDUxLjQsNTEu%0D%0ANiA1MS40LDIyLjYgNDguOSwyMi42IDQ4LjksNTEuNiAxOS45LDUxLjYgMTkuOSw1NC4xIDQ4Ljks%0D%0ANTQuMSA0OC45LDgzLjEgICA1MS40LDgzLjEgNTEuNCw1NC4xIDgwLjQsNTQuMSA4MC40LDUxLjYg%0D%0AIiBmaWxsPSIjZmZmZmZmIi8+CiA8L2c+Cjwvc3ZnPg==" class="menu__trigger" id="btn">
-            <img src="img/icons/mapa.png" class="menu__item menu__item--0">
-            <img src="img/icons/sol.png" class="menu__item menu__item--1">
-            <img src="img/icons/previsao.png" class="menu__item menu__item--2">
-        </div>
+  <div class="temperatura">
+    <div class="temperatura-wg">
+    <div id="ww_1bec6071dd239" v='1.3' loc='id' a='{"t":"responsive","lang":"pt","sl_lpl":1,"ids":["wl4955"],"font":"Arial","sl_ics":"one_a","sl_sot":"celsius","cl_bkg":"rgba(255,255,255,0)","cl_font":"rgba(255,255,255,1)","cl_cloud":"#FFFFFF","cl_persp":"#81D4FA","cl_sun":"#FFC107","cl_moon":"#FFC107","cl_thund":"#FF5722","el_wfc":3,"sl_tof":"3"}' style="width: min-content;">Weather for the Following Location: <a href="https://2ua.org/bra/sao_carlos/map/" id="ww_1bec6071dd239_u" target="_blank">Sao Carlos map, Brazil</a></div><script async src="https://app1.weatherwidget.org/js/?id=ww_1bec6071dd239"></script>
     </div>
+  </div>
 
-    <script src="nav.js"></script>
+<div class="navmenu">
+    <div class="navmenu-menu">
+        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIw%0D%0AMDAvc3ZnIj4KCiA8Zz4KICA8dGl0bGU+YmFja2dyb3VuZDwvdGl0bGU+CiAgPHJlY3QgZmlsbD0i%0D%0Abm9uZSIgaWQ9ImNhbnZhc19iYWNrZ3JvdW5kIiBoZWlnaHQ9IjQwMiIgd2lkdGg9IjU4MiIgeT0i%0D%0ALTEiIHg9Ii0xIi8+CiA8L2c+CiA8Zz4KICA8dGl0bGU+TGF5ZXIgMTwvdGl0bGU+CiAgPHBvbHln%0D%0Ab24gc3Ryb2tlPSIjZmZmZmZmIiBpZD0ic3ZnXzEiIHBvaW50cz0iODAuMiw1MS42IDUxLjQsNTEu%0D%0ANiA1MS40LDIyLjYgNDguOSwyMi42IDQ4LjksNTEuNiAxOS45LDUxLjYgMTkuOSw1NC4xIDQ4Ljks%0D%0ANTQuMSA0OC45LDgzLjEgICA1MS40LDgzLjEgNTEuNCw1NC4xIDgwLjQsNTQuMSA4MC40LDUxLjYg%0D%0AIiBmaWxsPSIjZmZmZmZmIi8+CiA8L2c+Cjwvc3ZnPg==" class="menu__trigger" id="btn">
+        <img src="img/icons/mapa.png" class="menu__item menu__item--0" onclick="mapa()">
+        <img src="img/icons/sol.png" class="menu__item menu__item--1" onclick="home()">
+        <img src="img/icons/previsao.png" class="menu__item menu__item--2" onclick="previsao()">
+    </div>
+</div>
+
+  <script src="nav.js"></script>
 
 </body>
 </html>
